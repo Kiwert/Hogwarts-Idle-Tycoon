@@ -1,0 +1,909 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16375 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.0f1\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Hogwarts Idle Tycoon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1174
+Successfully changed project path to: E:/Hogwarts Idle Tycoon
+E:/Hogwarts Idle Tycoon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 634.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Hogwarts Idle Tycoon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: ASUS Radeon RX 470 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12019.11001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.0f1/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017171 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 556.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3121ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2410ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (239ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (556ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (443ms)
+				ProcessInitializeOnLoadMethodAttributes (294ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.058712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.67 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5985ms)
+		BeginReloadAssembly (721ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (4584ms)
+			LoadAssemblies (514ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1527ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (318ms)
+			SetupLoadedEditorAssemblies (2046ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (110ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (541ms)
+				ProcessInitializeOnLoadAttributes (1236ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (7.8 MB). Loaded Objects now: 4372.
+Memory consumption went from 184.7 MB to 176.9 MB.
+Total: 46.449700 ms (FindLiveObjects: 2.576800 ms CreateObjectMapping: 0.474700 ms MarkObjects: 30.576800 ms  DeleteObjects: 12.817600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 5.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10888ms)
+		BeginReloadAssembly (1221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (75ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (286ms)
+		EndReloadAssembly (8613ms)
+			LoadAssemblies (865ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3140ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (554ms)
+			SetupLoadedEditorAssemblies (3691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (295ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (743ms)
+				ProcessInitializeOnLoadAttributes (2274ms)
+				ProcessInitializeOnLoadMethodAttributes (297ms)
+				AfterProcessingInitializeOnLoad (72ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4375.
+Memory consumption went from 172.3 MB to 164.6 MB.
+Total: 14.767800 ms (FindLiveObjects: 1.058100 ms CreateObjectMapping: 0.611300 ms MarkObjects: 7.234500 ms  DeleteObjects: 5.860400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5682ms)
+		BeginReloadAssembly (648ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (4414ms)
+			LoadAssemblies (469ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1437ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (242ms)
+			SetupLoadedEditorAssemblies (2081ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (183ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (433ms)
+				ProcessInitializeOnLoadAttributes (1267ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4378.
+Memory consumption went from 172.4 MB to 164.6 MB.
+Total: 19.506800 ms (FindLiveObjects: 0.906800 ms CreateObjectMapping: 0.463200 ms MarkObjects: 10.395100 ms  DeleteObjects: 7.738700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1831850.040236 seconds.
+  path: Assets/Models/FisherHouse
+  artifactKey: Guid(cbfdac1b2997c1e41b24ab30f40ab610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FisherHouse using Guid(cbfdac1b2997c1e41b24ab30f40ab610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61047443e18be47e8638db7e73f9058') in 0.015387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.900835 seconds.
+  path: Assets/Models/lowpoly-classroom-pack/source/BooksMat.mat
+  artifactKey: Guid(ebcd61ac6fa55304887922537272837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lowpoly-classroom-pack/source/BooksMat.mat using Guid(ebcd61ac6fa55304887922537272837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbaf922e11c6cec974a3df20cd3b3f6') in 0.618448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Models/lowpoly-classroom-pack/source/StudentSeatMat.mat
+  artifactKey: Guid(19cd6b9bc60a55f49bf38735a980da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lowpoly-classroom-pack/source/StudentSeatMat.mat using Guid(19cd6b9bc60a55f49bf38735a980da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570481ceb0ed2b5559af893e847daac7') in 0.062266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/lowpoly-classroom-pack/source/table.mat
+  artifactKey: Guid(6a9d2e0696d5d534b96be6f336b2a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lowpoly-classroom-pack/source/table.mat using Guid(6a9d2e0696d5d534b96be6f336b2a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a73ec786d6f90bc45aaa1197e953e6e') in 0.070677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/lowpoly-classroom-pack/source/table 1.mat
+  artifactKey: Guid(ea5183a46361d2c48a613c167a5012eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lowpoly-classroom-pack/source/table 1.mat using Guid(ea5183a46361d2c48a613c167a5012eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79d7de3beaec22aec82bac66eb196c8') in 0.056482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132121 seconds.
+  path: Assets/Models/lowpoly-classroom-pack/textures
+  artifactKey: Guid(eb0566dad71b41342bd02c42f5c25f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lowpoly-classroom-pack/textures using Guid(eb0566dad71b41342bd02c42f5c25f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c7ffc8ed7a4ea782854b9877b5f636') in 0.003858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.355581 seconds.
+  path: Assets/Models/mini-chibi-apprentice-free-demo/source
+  artifactKey: Guid(7512deb3192efec499d3094a9ab45885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mini-chibi-apprentice-free-demo/source using Guid(7512deb3192efec499d3094a9ab45885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b74ec023f35e47ad7eb9ef719ece7eb') in 0.002435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.849064 seconds.
+  path: Assets/Models/old-room/source
+  artifactKey: Guid(042e5b156be028f45891b22c33a84af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/old-room/source using Guid(042e5b156be028f45891b22c33a84af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50975e97a681171f1d732e042e3204d') in 0.002099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.036158 seconds.
+  path: Assets/Models/rts-human-house-lv2-proto-series/source
+  artifactKey: Guid(d781d8fc4fd105a4188589a6ef90cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rts-human-house-lv2-proto-series/source using Guid(d781d8fc4fd105a4188589a6ef90cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3c73491b583dc6f048453100c53906') in 0.003825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.707252 seconds.
+  path: Assets/Models/scarecrow/source
+  artifactKey: Guid(c52e94ed4b8b62d4bbc03a5433041b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scarecrow/source using Guid(c52e94ed4b8b62d4bbc03a5433041b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6aeb9f77642bbb1a11a803d4c5455') in 0.002357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.348060 seconds.
+  path: Assets/MainArea.fbx
+  artifactKey: Guid(8290a484a8662174c91e8f9b010da39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainArea.fbx using Guid(8290a484a8662174c91e8f9b010da39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17327d35c7c129c4c8d4b0db6a9d2cf8') in 0.388321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.923251 seconds.
+  path: Assets/Hogwarts_ts.mat
+  artifactKey: Guid(c3daa70d19ab4a6439ec8dbb997484e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hogwarts_ts.mat using Guid(c3daa70d19ab4a6439ec8dbb997484e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa85aba88492d3feb95aa3be3add888') in 0.037236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.208368 seconds.
+  path: Assets/Models/Classroom_Resturant_Dormitory.fbx
+  artifactKey: Guid(0f422d14dce0c05408fb631e9c64af23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Classroom_Resturant_Dormitory.fbx using Guid(0f422d14dce0c05408fb631e9c64af23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094d6db099029c48ab011fbf7cd227bb') in 0.669754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.023348 seconds.
+  path: Assets/Models/Assets.blend
+  artifactKey: Guid(44aa727ce3a97a94eb25e022f5937c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Assets.blend using Guid(44aa727ce3a97a94eb25e022f5937c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553d5d01c70b9123b1c85a1e30dd0fc') in 2.138150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.115909 seconds.
+  path: Assets/Models/FisherHouse/textures/New Folder/Green 5.mat
+  artifactKey: Guid(0876a2fb5dad0c345b369a1ca78a704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FisherHouse/textures/New Folder/Green 5.mat using Guid(0876a2fb5dad0c345b369a1ca78a704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e31ce549aa8e2648e65c073e70e3821') in 0.065843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.721672 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(f90ff084457c2ea4da8578bc494f8868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(f90ff084457c2ea4da8578bc494f8868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11a61dabc7a2d49e1238db21f6dcc05') in 0.003428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.339276 seconds.
+  path: Assets/Scenes/SampleScene_Profiles
+  artifactKey: Guid(db4042126a457554aad0d785794f7648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles using Guid(db4042126a457554aad0d785794f7648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292f99752d3727c32dc631f53195e369') in 0.006173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.836766 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(43a33b6294c276e438f07700b812496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(43a33b6294c276e438f07700b812496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e6cd6c5157bfa3e122c91ee67685ee') in 0.004040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045235 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(7994148e1136ef44280d03fb33e8bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(7994148e1136ef44280d03fb33e8bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91987a232afd8d6c45dd279241c5a027') in 0.023117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.195759 seconds.
+  path: Assets/JMO Assets
+  artifactKey: Guid(bd4861a175126d84583aac3c5abfb508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets using Guid(bd4861a175126d84583aac3c5abfb508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d712c7e93036bac3a313f3b2cd9d46') in 0.003643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023432 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7724ms)
+		BeginReloadAssembly (1131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (364ms)
+		EndReloadAssembly (5755ms)
+			LoadAssemblies (674ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1727ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (394ms)
+			SetupLoadedEditorAssemblies (2726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (371ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (567ms)
+				ProcessInitializeOnLoadAttributes (1575ms)
+				ProcessInitializeOnLoadMethodAttributes (190ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4424.
+Memory consumption went from 177.8 MB to 170.0 MB.
+Total: 11.592600 ms (FindLiveObjects: 0.747100 ms CreateObjectMapping: 0.273700 ms MarkObjects: 5.481700 ms  DeleteObjects: 5.088100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.403 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5405ms)
+		BeginReloadAssembly (745ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (207ms)
+		EndReloadAssembly (3929ms)
+			LoadAssemblies (581ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1854ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (216ms)
+			SetupLoadedEditorAssemblies (1259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (144ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (761ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 19.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4427.
+Memory consumption went from 177.8 MB to 170.0 MB.
+Total: 13.406500 ms (FindLiveObjects: 0.776200 ms CreateObjectMapping: 0.296000 ms MarkObjects: 6.117300 ms  DeleteObjects: 6.214600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.23 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6972ms)
+		BeginReloadAssembly (661ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (197ms)
+		EndReloadAssembly (5682ms)
+			LoadAssemblies (494ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1921ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (509ms)
+			SetupLoadedEditorAssemblies (2513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (280ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (634ms)
+				ProcessInitializeOnLoadAttributes (1454ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4430.
+Memory consumption went from 177.8 MB to 170.0 MB.
+Total: 25.035200 ms (FindLiveObjects: 0.944400 ms CreateObjectMapping: 0.542200 ms MarkObjects: 13.286100 ms  DeleteObjects: 10.239300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4452ms)
+		BeginReloadAssembly (661ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (200ms)
+		EndReloadAssembly (3258ms)
+			LoadAssemblies (410ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1248ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (1351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (87ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (338ms)
+				ProcessInitializeOnLoadAttributes (799ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.15 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4433.
+Memory consumption went from 177.8 MB to 170.0 MB.
+Total: 28.953100 ms (FindLiveObjects: 1.068200 ms CreateObjectMapping: 0.392400 ms MarkObjects: 18.366700 ms  DeleteObjects: 9.122300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.42 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7558ms)
+		BeginReloadAssembly (1347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (265ms)
+		EndReloadAssembly (5110ms)
+			LoadAssemblies (1029ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1590ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (2455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (285ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (477ms)
+				ProcessInitializeOnLoadAttributes (1508ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4436.
+Memory consumption went from 177.8 MB to 170.1 MB.
+Total: 10.684500 ms (FindLiveObjects: 0.794500 ms CreateObjectMapping: 0.325800 ms MarkObjects: 5.698600 ms  DeleteObjects: 3.863600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4584ms)
+		BeginReloadAssembly (603ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (167ms)
+		EndReloadAssembly (3339ms)
+			LoadAssemblies (443ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1222ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (145ms)
+			SetupLoadedEditorAssemblies (1422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (300ms)
+				ProcessInitializeOnLoadAttributes (912ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.09 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4439.
+Memory consumption went from 177.8 MB to 170.1 MB.
+Total: 19.293200 ms (FindLiveObjects: 1.776400 ms CreateObjectMapping: 0.435100 ms MarkObjects: 11.092300 ms  DeleteObjects: 5.986200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.055211 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 9.87 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11034ms)
+		BeginReloadAssembly (1134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (58ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (268ms)
+		EndReloadAssembly (8829ms)
+			LoadAssemblies (1358ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (3833ms)
+			ReleaseScriptCaches (16ms)
+			RebuildScriptCaches (642ms)
+			SetupLoadedEditorAssemblies (2733ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (245ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (606ms)
+				ProcessInitializeOnLoadAttributes (1647ms)
+				ProcessInitializeOnLoadMethodAttributes (174ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.89 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4442.
+Memory consumption went from 177.8 MB to 170.1 MB.
+Total: 31.668300 ms (FindLiveObjects: 1.042100 ms CreateObjectMapping: 1.031700 ms MarkObjects: 19.809500 ms  DeleteObjects: 9.781800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Hogwarts Idle Tycoon\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4487ms)
+		BeginReloadAssembly (671ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (62ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (3170ms)
+			LoadAssemblies (464ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1085ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (244ms)
+			SetupLoadedEditorAssemblies (1280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (115ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (272ms)
+				ProcessInitializeOnLoadAttributes (737ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (7.7 MB). Loaded Objects now: 4445.
+Memory consumption went from 177.8 MB to 170.1 MB.
+Total: 13.226500 ms (FindLiveObjects: 1.710300 ms CreateObjectMapping: 0.354100 ms MarkObjects: 6.160200 ms  DeleteObjects: 4.999400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1057.917407 seconds.
+  path: Assets/Prefabs/Student.prefab
+  artifactKey: Guid(04bab1788bd9b9845a2bfb2cc7c701b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Student.prefab using Guid(04bab1788bd9b9845a2bfb2cc7c701b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d46b5c06d5158ab6a0f6b8e0a9f9b4') in 0.311081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.687698 seconds.
+  path: Assets/Animations/Student.controller
+  artifactKey: Guid(ee6f1d95e873d6147976e4102c1e507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Student.controller using Guid(ee6f1d95e873d6147976e4102c1e507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0a40436d8cb2ef0eaba5379d1e46f') in 0.009215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.224671 seconds.
+  path: Assets/Animations/LockAnim.anim
+  artifactKey: Guid(164634768c9bb1c439aa47f64e602179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/LockAnim.anim using Guid(164634768c9bb1c439aa47f64e602179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928539d946172499ff0830976d1c530a') in 0.008756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.807782 seconds.
+  path: Assets/Ressources
+  artifactKey: Guid(f90ff084457c2ea4da8578bc494f8868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ressources using Guid(f90ff084457c2ea4da8578bc494f8868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90362095909c59d37a02ae99ea573f4e') in 0.002519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.358820 seconds.
+  path: Assets/Ressources/Models/CleanClass.fbx
+  artifactKey: Guid(8290a484a8662174c91e8f9b010da39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ressources/Models/CleanClass.fbx using Guid(8290a484a8662174c91e8f9b010da39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72807dd06e83c805ed21a5232d4b98b9') in 0.269144 seconds 

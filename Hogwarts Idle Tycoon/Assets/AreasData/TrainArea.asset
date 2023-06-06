@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac9fce12471c8a44880018044b28729, type: 3}
+  m_Name: TrainArea
+  m_EditorClassIdentifier: 
+  lessonDuration: 5
+  lessonDurationText: Lesson Duration
+  capacity: 1
+  unlockCost: 1000
+  occupied: 0
+  areaName: Train Area
+  studentExpPerLesson: 500
+  ExperienceText: Lesson Experience
+  schoolExperienceOnUnlock: 1000
+  subscriptionFee: 0
+  upgradeCost: 100
+  preriority: 3
